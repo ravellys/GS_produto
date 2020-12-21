@@ -10,6 +10,7 @@ django-bootstrap-form = "*"
 django-cors-headers = "*"
 flake8 = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [dev-packages]
 pytest-django = "*"
