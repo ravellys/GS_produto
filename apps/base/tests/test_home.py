@@ -1,7 +1,7 @@
 import pytest
 from django.urls import reverse
 
-from crud_project.django_assertions import assert_contains
+from gs_project.django_assertions import assert_contains
 
 
 @pytest.fixture
@@ -12,7 +12,7 @@ def resp(client):
 
 # testa se pagna da home existe
 def test_status_code(resp):
-    assert resp.status_code == 200
+    assert resp.status_code == 302
 
 
 # testa titulo

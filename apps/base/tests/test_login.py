@@ -2,7 +2,7 @@ import pytest
 from django.urls import reverse
 from model_mommy import mommy
 
-from crud_project.django_assertions import assert_contains, assert_not_contains
+from gs.django_assertions import assert_contains, assert_not_contains
 
 
 @pytest.fixture
