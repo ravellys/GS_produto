@@ -9,9 +9,12 @@ djangorestframework = "*"
 django-bootstrap-form = "*"
 django-cors-headers = "*"
 flake8 = "*"
+python-decouple = "*"
 
 [dev-packages]
 pytest-django = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [requires]
 python_version = "3.8"
