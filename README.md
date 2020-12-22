@@ -84,12 +84,12 @@ python manage.py createsuper user
 python manage.py runserver
 ```
 
-![Alt Text](https://raw.githubusercontent.com/ravellys/GS_produto/main/arquivos/DRF.webm)
-
+![Site demonstração](https://github.com/ravellys/GS_produto/blob/main/arquivos/django_template.gif)
 
 
 ### API - Django Rest Framework:
 A API construida com o DRF pode ser obtida apartir do enpoint `ttp://localhost:8000/api/produto/`.
+![DRF demonstralção](https://github.com/ravellys/GS_produto/blob/main/arquivos/DRF.gif)
 
 
 ### Consulta da API com  ReactJS:
@@ -98,7 +98,7 @@ para executa-la você pode utilizar o comando
 ```
 npm start
 ```
-
+![React Demonstração](https://github.com/ravellys/GS_produto/blob/main/arquivos/react.gif)
 
 ## 🗃 Histórico de lançamentos
 
