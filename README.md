@@ -1,16 +1,18 @@
 # GS_produto
-📜 Este repositório trata-se de um projeto para realizar o CRUD (Create, Read, Update, Delete) de uma entidade Produto com o framework Django. Utilizou-se o método da Class Based Views (CBV) para automatizar e facilitar o encapsulamento das funcionalidades. Para a realização dos testes foi utilizado o pytest-django e como ambiente virtual utilizou-se o pipenv.
-** DRF **
-** DOCKER **
-** React **
-Por fim, o projeto foi posto em produção no heroku e para seus arquivos estáticos foi feito um bucket na S3 da amazon. 
-
-link do deploy: [GS_produto](https://gsproduto.herokuapp.com/)
+📜 Este repositório trata-se de um projeto para realizar o CRUD (Create, Read, Update, Delete) de uma entidade Produto com o framework Django. Utilizou-se o método da Class Based Views (CBV) para automatizar e facilitar o encapsulamento das funcionalidades. Para a realização dos testes foi utilizado o pytest-django e como ambiente virtual utilizou-se o pipenv. Foi desenvolvida uma infraestrutura para o banco de dados postgrs, com as ferramentas Docker e Docker Compose. Utilizou-se o Django Rest Framework (DRF) para servir APIs. Por fim utilizou-se o framework frontend ReactJS para consumir a API do DRF.
+O projeto ainda foi posto em produção no heroku - link do deploy: [GS_produto](https://gsproduto.herokuapp.com/).
 
  
 ## 💻 Configuração para Desenvolvimento
 
-*** Programas necessários
+### Programas necessários
+Aqui está a lista de coisas que você precisa configurar em sua máquina para utilizar este repositório:
+
+1. Python 3  (se você estiver usando Linux, é provável que já esteja instalado. Execute o comando python3 -V para verificar)
+2. Pip  (o instalador de pacote Python padrão)
+3. NodeJS (em uma versão 6 ou superior) e npm  (5.2+)
+4. Docker e Docker Compose
+
 
 ### Aplicação Django
 
@@ -87,9 +89,15 @@ python manage.py runserver
 
 
 ### API - Django Rest Framework:
+A API construida com o DRF pode ser obtida apartir do enpoint `ttp://localhost:8000/api/produto/`.
 
 
 ### Consulta da API com  ReactJS:
+A consulta da API com o framework ReactJA pode ser observada na pasta gs_frontend.
+para executa-la você pode utilizar o comando 
+```
+npm start
+```
 
 
 
