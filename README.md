@@ -12,6 +12,7 @@ link do deploy: [GS_produto](https://gsproduto.herokuapp.com/)
 
 *** Programas necessários
 
+### Aplicação Django
 
 1. Inicialmente insira como variaveis globais no sistema:
 ```
@@ -75,6 +76,22 @@ python manage.py migrate
 ```
 python manage.py createsuper user
 ```
+
+12. Para executar a aplicação utilize:
+```
+python manage.py runserver
+```
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+
+
+### API - Django Rest Framework:
+
+
+### Consulta da API com  ReactJS:
+
+
 
 ## 🗃 Histórico de lançamentos
 
