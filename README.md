@@ -83,12 +83,13 @@ python manage.py createsuper user
 ```
 python manage.py runserver
 ```
-
+Abaixo segue a demonstração da aplicação desenvolvida:
 ![Site demonstração](https://github.com/ravellys/GS_produto/blob/main/arquivos/django_template.gif)
 
 
 ### API - Django Rest Framework:
-A API construida com o DRF pode ser obtida apartir do enpoint `ttp://localhost:8000/api/produto/`.
+A API construida com o DRF pode ser obtida apartir do enpoint `http://localhost:8000/api/produto/`.
+Abaixo segue a demonstração da API desenvolvida sendo consumida pelo Postman:
 ![DRF demonstralção](https://github.com/ravellys/GS_produto/blob/main/arquivos/DRF.gif)
 
 
@@ -98,6 +99,7 @@ para executa-la você pode utilizar o comando
 ```
 npm start
 ```
+Abaixo Segue a Demonstração do Reactjs consumindo a API fornecida pelo DRF:
 ![React Demonstração](https://github.com/ravellys/GS_produto/blob/main/arquivos/react.gif)
 
 ## 🗃 Histórico de lançamentos
