@@ -84,7 +84,7 @@ python manage.py createsuper user
 python manage.py runserver
 ```
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://raw.githubusercontent.com/ravellys/GS_produto/main/arquivos/DRF.webm)
 
 
 
@@ -98,7 +98,6 @@ para executa-la você pode utilizar o comando
 ```
 npm start
 ```
-
 
 
 ## 🗃 Histórico de lançamentos
