@@ -37,7 +37,6 @@ def test_dados(resp, produto):
     assert_contains(resp, produto.descricao)
 
 
-
 # resposta sem o usuário logado
 @pytest.fixture
 def resp_sem_usuario(client, produto):
