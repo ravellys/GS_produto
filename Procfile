@@ -1,2 +1,2 @@
 release: python manage.py migrate --no-input
-web: gunicorn icsmp_project.wsgi --log-file -
+web: gunicorn gs_project.wsgi --log-file -
