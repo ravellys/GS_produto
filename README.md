@@ -63,23 +63,19 @@ pipenv run pytest
 pipenv shel
 ```
 
-9. Execute o projeto:
-```
-python manage.py runserver
-```
 
-10. realize as migrações para se banco de dados:
+9. realize as migrações para se banco de dados:
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-11. Para criar o super usuário no se banco de dado utilize:
+10. Para criar o super usuário no se banco de dado utilize:
 ```
 python manage.py createsuper user
 ```
 
-12. Para executar a aplicação utilize:
+11. Para executar a aplicação utilize:
 ```
 python manage.py runserver
 ```
